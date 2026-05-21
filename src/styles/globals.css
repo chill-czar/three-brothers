@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-container-lowest: #ffffff;
+  --color-outline-variant: #dcc1ba;
+  --color-surface-bright: #fbf9f5;
+  --color-on-background: #1b1c1a;
+  --color-secondary: #5f5e5b;
+  --color-on-tertiary-fixed: #2a1800;
+  --color-on-error: #ffffff;
+  --color-primary-fixed: #ffdad2;
+  --color-on-primary-fixed: #3d0700;
+  --color-inverse-surface: #30312e;
+  --color-tertiary-container: #966723;
+  --color-on-error-container: #93000a;
+  --color-surface-dim: #dbdad6;
+  --color-background: #fbf9f5;
+  --color-error-container: #ffdad6;
+  --color-inverse-primary: #ffb4a3;
+  --color-on-secondary-fixed-variant: #474743;
+  --color-secondary-fixed-dim: #c8c6c2;
+  --color-primary-fixed-dim: #ffb4a3;
+  --color-surface-container-highest: #e4e2de;
+  --color-primary: #943d28;
+  --color-surface-variant: #e4e2de;
+  --color-surface: #fbf9f5;
+  --color-surface-container-low: #f5f3ef;
+  --color-surface-tint: #9c432d;
+  --color-error: #ba1a1a;
+  --color-surface-container: #efeeea;
+  --color-on-primary: #ffffff;
+  --color-secondary-fixed: #e5e2dd;
+  --color-on-tertiary: #ffffff;
+  --color-primary-container: #b3543d;
+  --color-on-secondary-container: #63635f;
+  --color-surface-container-high: #eae8e4;
+  --color-tertiary: #7a4f0a;
+  --color-on-primary-container: #fff3f0;
+  --color-on-surface-variant: #56423e;
+  --color-on-tertiary-container: #fff4eb;
+  --color-outline: #89726d;
+  --color-inverse-on-surface: #f2f0ed;
+  --color-on-secondary-fixed: #1c1c19;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #1b1c1a;
+  --color-tertiary-fixed: #ffddb6;
+  --color-on-primary-fixed-variant: #7d2c18;
+  --color-tertiary-fixed-dim: #f6bc70;
+  --color-on-tertiary-fixed-variant: #643f00;
+  --color-secondary-container: #e2dfdb;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 20px;
+  --spacing-unit: 8px;
+  --spacing-margin-desktop: 64px;
+  --spacing-container-max: 1280px;
+  --spacing-stack-sm: 8px;
+  --spacing-stack-md: 16px;
+  --spacing-stack-lg: 32px;
+
+  --font-headline-lg: "Playfair Display", serif;
+  --font-headline-sm: "Playfair Display", serif;
+  --font-label-md: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-label-lg: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-display-lg: "Playfair Display", serif;
+  --font-display-lg-mobile: "Playfair Display", serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-headline-md: "Playfair Display", serif;
+  --font-headline-lg-mobile: "Playfair Display", serif;
+
+  --text-headline-lg: 48px;
+  --text-headline-lg--line-height: 56px;
+  --text-headline-lg--font-weight: 600;
+
+  --text-headline-sm: 24px;
+  --text-headline-sm--line-height: 32px;
+  --text-headline-sm--font-weight: 600;
+
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.02em;
+  --text-label-md--font-weight: 500;
+
+  --text-body-md: 16px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--font-weight: 400;
+
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 20px;
+  --text-label-lg--letter-spacing: 0.05em;
+  --text-label-lg--font-weight: 600;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--font-weight: 400;
+
+  --text-display-lg: 64px;
+  --text-display-lg--line-height: 72px;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-lg--font-weight: 700;
+
+  --text-display-lg-mobile: 40px;
+  --text-display-lg-mobile--line-height: 48px;
+  --text-display-lg-mobile--font-weight: 700;
+
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--font-weight: 400;
+
+  --text-headline-md: 32px;
+  --text-headline-md--line-height: 40px;
+  --text-headline-md--font-weight: 600;
+
+  --text-headline-lg-mobile: 32px;
+  --text-headline-lg-mobile--line-height: 40px;
+  --text-headline-lg-mobile--font-weight: 600;
+}
+
+@layer utilities {
+  .elevation-level-1 {
+    box-shadow: 0 4px 6px -1px rgba(27, 28, 26, 0.05), 0 2px 4px -2px rgba(27, 28, 26, 0.05);
+  }
+  .elevation-level-2 {
+    box-shadow: 0 10px 15px -3px rgba(27, 28, 26, 0.08), 0 4px 6px -4px rgba(27, 28, 26, 0.05);
+  }
+}
+
+body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+}

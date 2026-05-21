@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60">
+  <text x="10" y="40" font-family="serif" font-size="28" font-weight="bold" fill="#b3543d">THREE BROTHERS</text>
+  <text x="10" y="55" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#333">MEDITERRANEAN BAR &amp; GRILL</text>
+  <path d="M10 45 L190 45" stroke="#b3543d" stroke-width="1" />
+</svg>
