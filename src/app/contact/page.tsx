@@ -63,20 +63,12 @@ export default function Contact() {
           <h2 className="font-headline-sm text-headline-sm text-primary mb-stack-md">Opening Hours</h2>
           <ul className="space-y-4 font-body-md text-body-md text-on-surface-variant flex-grow flex flex-col justify-center">
             <li className="flex justify-between items-center border-b border-surface-variant/50 pb-2">
-              <span className="font-medium">Monday - Thursday</span>
-              <span>11:00 AM - 10:00 PM</span>
-            </li>
-            <li className="flex justify-between items-center border-b border-surface-variant/50 pb-2">
-              <span className="font-medium">Friday</span>
-              <span>11:00 AM - 11:00 PM</span>
-            </li>
-            <li className="flex justify-between items-center border-b border-surface-variant/50 pb-2">
-              <span className="font-medium">Saturday</span>
-              <span>12:00 PM - 11:00 PM</span>
+              <span className="font-medium">Mon-Thu & Sun</span>
+              <span>11:00 AM - 9:00 PM</span>
             </li>
             <li className="flex justify-between items-center">
-              <span className="font-medium">Sunday</span>
-              <span>12:00 PM - 9:00 PM</span>
+              <span className="font-medium">Friday & Saturday</span>
+              <span>11:00 AM - 11:00 PM</span>
             </li>
           </ul>
         </div>
