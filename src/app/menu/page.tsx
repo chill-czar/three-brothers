@@ -50,7 +50,6 @@ export default function Menu() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-2">Creamy chickpea purée with tahini, lemon juice, and a drizzle of extra virgin olive oil.</p>
                 <span className="inline-block px-2 py-1 bg-surface-container text-on-secondary-container font-label-md text-label-md rounded-sm">V, GF</span>
               </div>
-              <span className="font-label-lg text-label-lg text-on-surface font-semibold shrink-0">$8</span>
             </div>
             {/* Item */}
             <div className="bg-surface-container-lowest p-stack-md rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow group flex justify-between items-start">
@@ -59,7 +58,6 @@ export default function Menu() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-2">Deep-fried patties of ground chickpeas and herbs, served with a side of tahini sauce.</p>
                 <span className="inline-block px-2 py-1 bg-surface-container text-on-secondary-container font-label-md text-label-md rounded-sm">V</span>
               </div>
-              <span className="font-label-lg text-label-lg text-on-surface font-semibold shrink-0">$9</span>
             </div>
             {/* Item */}
             <div className="bg-surface-container-lowest p-stack-md rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow group flex justify-between items-start">
@@ -68,7 +66,6 @@ export default function Menu() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-2">Smoky roasted eggplant mashed with tahini, garlic, and fresh lemon juice.</p>
                 <span className="inline-block px-2 py-1 bg-surface-container text-on-secondary-container font-label-md text-label-md rounded-sm">V, GF</span>
               </div>
-              <span className="font-label-lg text-label-lg text-on-surface font-semibold shrink-0">$9</span>
             </div>
             {/* Item */}
             <div className="bg-surface-container-lowest p-stack-md rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow group flex justify-between items-start">
@@ -77,7 +74,6 @@ export default function Menu() {
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-2">Vine leaves wrapped around a savory mix of rice, herbs, and spices.</p>
                 <span className="inline-block px-2 py-1 bg-surface-container text-on-secondary-container font-label-md text-label-md rounded-sm">V, GF</span>
               </div>
-              <span className="font-label-lg text-label-lg text-on-surface font-semibold shrink-0">$7</span>
             </div>
           </div>
         </section>
@@ -102,7 +98,6 @@ export default function Menu() {
               <div className="p-stack-lg md:w-1/2 flex flex-col justify-center">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="font-headline-md text-headline-md text-primary">Mixed Grill Platter</h3>
-                  <span className="font-headline-sm text-headline-sm text-on-surface ml-4">$32</span>
                 </div>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">The ultimate feast. A generous assortment of our finest charcoal-grilled meats including Lamb Kebab, Chicken Tawook, and Beef Kofta. Served over rice with roasted vegetables and garlic sauce.</p>
                 <button className="self-start text-primary font-label-lg text-label-lg flex items-center gap-2 hover:text-primary-container transition-colors cursor-pointer">
@@ -115,7 +110,6 @@ export default function Menu() {
             <div className="bg-surface-container-lowest p-stack-lg rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow flex flex-col">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-headline-sm text-headline-sm text-primary">Chicken Shawarma</h3>
-                <span className="font-label-lg text-label-lg text-on-surface font-semibold">$18</span>
               </div>
               <p className="font-body-md text-body-md text-on-surface-variant mb-4 flex-grow">Marinated chicken slowly roasted on a vertical spit, thinly sliced and served with garlic sauce and pickles.</p>
             </div>
@@ -123,7 +117,6 @@ export default function Menu() {
             <div className="bg-surface-container-lowest p-stack-lg rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow flex flex-col">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-headline-sm text-headline-sm text-primary">Lamb Kebab</h3>
-                <span className="font-label-lg text-label-lg text-on-surface font-semibold">$22</span>
               </div>
               <p className="font-body-md text-body-md text-on-surface-variant mb-4 flex-grow">Tender cubes of marinated lamb leg, skewered and charred over an open flame. Served with vermicelli rice.</p>
             </div>
@@ -131,7 +124,6 @@ export default function Menu() {
             <div className="bg-surface-container-lowest p-stack-lg rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow flex flex-col">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-headline-sm text-headline-sm text-primary">Beef Kofta</h3>
-                <span className="font-label-lg text-label-lg text-on-surface font-semibold">$20</span>
               </div>
               <p className="font-body-md text-body-md text-on-surface-variant mb-4 flex-grow">Minced beef mixed with finely chopped parsley, onions, and traditional spices, grilled to perfection.</p>
             </div>
@@ -139,7 +131,6 @@ export default function Menu() {
             <div className="bg-surface-container-lowest p-stack-lg rounded-lg elevation-level-1 hover:elevation-level-2 transition-shadow flex flex-col">
               <div className="flex justify-between items-start mb-4">
                 <h3 className="font-headline-sm text-headline-sm text-primary">Grilled Branzino</h3>
-                <span className="font-label-lg text-label-lg text-on-surface font-semibold">$28</span>
               </div>
               <p className="font-body-md text-body-md text-on-surface-variant mb-4 flex-grow">Whole Mediterranean sea bass, butterflied and grilled with lemon, herbs, and olive oil.</p>
             </div>
